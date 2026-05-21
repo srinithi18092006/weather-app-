@@ -1,147 +1,39 @@
-<<<<<<< HEAD
-body{
-
-display:flex;
-justify-content:center;
-align-items:center;
-
-height:100vh;
-
-font-family:Arial;
-
-background:linear-gradient(
-135deg,
-#4facfe,
-#00f2fe
-);
-
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
 }
 
-.weather-container{
+.weather-container {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
 
-background:white;
-
-padding:30px;
-
-border-radius:20px;
-
-text-align:center;
-
-width:300px;
-
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
 }
 
-input{
-
-padding:10px;
-width:80%;
-margin:10px;
-
+.weather-container:hover {
+    transform: scale(1.05);
 }
 
-button{
-
-padding:10px 20px;
-cursor:pointer;
-
-}
-.weather-container{
-
-backdrop-filter: blur(10px);
-
-box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-
-transition: transform 0.3s;
+input {
+    padding: 10px;
+    width: 80%;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
 }
 
-.weather-container:hover{
-
-transform: scale(1.05);
-
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
 }
-
-button{
-
-border:none;
-border-radius:10px;
-}
-
-input{
-
-border-radius:10px;
-border:1px solid #ccc;
-}
-=======
-body{
-
-display:flex;
-justify-content:center;
-align-items:center;
-
-height:100vh;
-
-font-family:Arial;
-
-background:linear-gradient(
-135deg,
-#4facfe,
-#00f2fe
-);
-
-}
-
-.weather-container{
-
-background:white;
-
-padding:30px;
-
-border-radius:20px;
-
-text-align:center;
-
-width:300px;
-
-}
-
-input{
-
-padding:10px;
-width:80%;
-margin:10px;
-
-}
-
-button{
-
-padding:10px 20px;
-cursor:pointer;
-
-}
-.weather-container{
-
-backdrop-filter: blur(10px);
-
-box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-
-transition: transform 0.3s;
-}
-
-.weather-container:hover{
-
-transform: scale(1.05);
-
-}
-
-button{
-
-border:none;
-border-radius:10px;
-}
-
-input{
-
-border-radius:10px;
-border:1px solid #ccc;
-}
->>>>>>> 59f002531c5ebf0193b02915410a89bb5da08871
